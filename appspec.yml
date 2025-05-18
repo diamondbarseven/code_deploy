@@ -5,7 +5,7 @@ os: linux
 files:
   - source: /index.html
     destination: /var/www/html/
-    overwrite: yes  # 既存ファイルがあっても上書きする
+    overwrite: true  # 既存ファイルがあっても上書きする
 
 # デプロイフックの定義
 hooks:
