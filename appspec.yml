@@ -28,3 +28,6 @@ hooks:
     - location: scripts/embed_env.sh
       timeout: 300
       runas: root
+    - location: scripts/generate_env.sh
+      timeout: 300
+      runas: root
