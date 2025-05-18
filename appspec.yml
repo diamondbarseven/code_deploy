@@ -23,8 +23,7 @@ hooks:
     - location: scripts/start_server
       timeout: 300
       runas: root
-
-  AfterInstall:
+  ApplicationStart::
     - location: scripts/embed_env.sh
       timeout: 300
       runas: root
